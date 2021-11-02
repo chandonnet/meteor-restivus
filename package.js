@@ -13,8 +13,8 @@ Package.onUse(function (api) {
   api.use('check');
   api.use('underscore');
   api.use('accounts-password');
-  api.use('simple:json-routes');
-  api.use('alanning:roles', 'server', {weak: true});
+  api.use('simple:json-routes@2.3.1');
+  api.use('alanning:roles@3.4.0', 'server', {weak: true});
 
   api.addFiles([
     'lib/auth.js',
