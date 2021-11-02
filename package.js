@@ -1,7 +1,7 @@
 Package.describe({
   name: 'fchandonnet:restivus',
   summary: 'Create authenticated REST APIs in Meteor via HTTP/HTTPS. Setup CRUD endpoints for Collections.',
-  version: '1.1.1',
+  version: '1.1.2',
   git: 'https://github.com/chandonnet/meteor-restivus'
 });
 
