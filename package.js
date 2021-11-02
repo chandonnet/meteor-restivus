@@ -34,7 +34,7 @@ Package.onTest(function (api) {
   api.use('accounts-password');
   api.use('practicalmeteor:munit');
   api.use('test-helpers');
-  api.use('vatfree:restivus');
+  api.use('fchandonnet:restivus');
   api.use('alanning:roles');
 
   api.addFiles([
